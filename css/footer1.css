@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footer-container{
+    display: flex ;
+    flex-direction: row;
+    background-color: #231f20;
+    margin-top: 25.5%;
+    height: 350px;
+    width:100% ;
+    color: white;
+
+}
+
+.logo{
+    height: 15%;
+    margin-left: 100px;
+    margin-top: 35px;
+
+
+}
+.site-name{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #058488;
+}
+.line-copyright{
+    margin-left: 110px;
+    color: #bbb;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 75px;
+   font-size: 12px;
+
+}
+.address{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #ddd;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-2{
+    margin-left: 450px;
+    margin-top: 210px;
+    font-size: 19px;
+    
+}
+.nav-item{
+    padding: 10px;
+    font-size: 19px;
+}
+
+.social-media-icon{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 380px;
+
+    
+   
+}
+.mob-no{
+   font-size: 15px;
+   margin-left: 337px;
+   margin-top: 5px;
+}
+.media-icon{
+    font-size: 22px;
+    margin-left: 405px;
+    
+    margin-top: 10px;
+}
