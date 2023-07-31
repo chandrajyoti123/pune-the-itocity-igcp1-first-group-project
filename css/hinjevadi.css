@@ -89,7 +89,7 @@
 
 .history-info{
     font-size: 20px;
-    color: black;
+    color: #004a4d;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 35px;
     margin-right: 10px;
@@ -126,9 +126,11 @@
     height: 600px;
     margin-left: 200px;
     margin-top: 100px;
+    margin-left: -140px;
     
     
 }
+
 
 
 @media screen and (min-width: 375px) and (max-width: 668px) {
