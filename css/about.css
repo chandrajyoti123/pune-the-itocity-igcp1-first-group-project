@@ -1,5 +1,134 @@
-.main-contain{
-    background-image:url("./.jpg");
-    height:500px;
-    width:1000px;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.text{
+    font-size: 50px;
+    color:#004a4d  ;
+    position: relative;
+    bottom: 500px;
+    left:80px;
+}
+
+.text-container{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    box-shadow:4px  #0d9ba0;
+    
+}
+
+.border{
+    border: 4px solid #004a4d;
+    height: 500px;
+    width: 350px;
+}
+
+  
+
+
+
+.text-border{
+    position: relative;
+    border: 5px solid hwb(182 9% 58%);
+    border-radius: 50px;
+    height: 350px;
+    width: 270px;
+    padding-left: 10px;
+    background-color:hwb(182 9% 58%) ;
+    
+   
+    margin-left: 30px;
+    margin-top: 90px;
+
+}
+.head{
+    font-size: 80px;
+    text-align: center;
+    color: #004a4d;
+}
+.border-img{
+    position: relative;
+    margin: 10px;
+    
+    top:10px;
+    left: 8px;
+    border-radius: 50%;
+    top:-70px;
+    box-shadow: #004a4d;
+    border:1px solid #004a4d;
+   
+}
+.border1{
+    position: relative;
+    border: 5px solid hwb(182 9% 58%);
+    border-radius: 50px;
+    height: 350px;
+    width: 270px;
+    padding-left: 10px;
+    background-color:hwb(182 9% 58%) ;
+   
+    margin-left: 30px;
+    margin-top: 90px;
+    text-align: center;
+}
+.border3{
+  position: relative;
+  left: 580px;
+
+}
+.team{
+    border-radius: 50%;
+    height: 50px;
+
+}
+.heading1{
+    position: relative;
+    background-color: white;
+    color: #004a4d;
+    bottom: 23px;
+    height: 100px;
+    width: 310px;
+    right: 30px;
+    text-align: center;
+    margin: 10px;
+    
+}
+.member{
+    font-size: 20px;
+}
+
+/* Mobile Devices */
+@media screen and (min-width: 600px)and (max-width:978){
+.img{
+    background-color: #0d9ba0;
+   
+}
+
+}
+
+ /* Tablet Devices */
+
+ @media screen and (min-width: 979px) and (max-width: 1275px){
+    .img{
+        background-color: orangered;
+    }
+
+ }
+
+  /* Dekstop device */      
+
+  @media screen and (min-width:1275px) and (max-width: 1570px){
+    .img{
+        background-color: orangered;
+       
+
+    }
+
+  }
