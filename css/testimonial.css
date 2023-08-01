@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -114,4 +115,28 @@
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
+=======
+.test-card{
+    height: 500px;
+    width: 420px;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-width: 3px;
+    background-color:aquamarine;
+    }
+.main-contain{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.main-card{
+    border: 2px solid green;
+    border-radius: 40px;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    top:80px;
+    left: 50px;
+    background-color: green;
+>>>>>>> fcf2a1e3e519b7fd3cb5ff26bf5b7e28605707e8
 }
