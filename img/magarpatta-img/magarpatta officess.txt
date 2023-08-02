@@ -1,0 +1,6 @@
+7	Amdocs, Dresser-Rand Group, Hitachi Consulting, HCL Technologies, MarketsandMarkets, Compucom, UPS solutions
+8	WNS Global Services, Capgemini, Springer Nature, Xento Systems, The Bank of New York Mellon, Systems Plus
+9	Teradata, Tata Elxsi, Springer Nature, Sutherland, Xento Systems,[2] EXL Service, The Bank of New York Mellon
+10	Red Hat, Capita, Preferred Engineering Pvt Ltd
+11	John Deere, Dar Al-Handasah, Avaya, Varian Medical Systems
+12	Amdocs, Appdirect India, Teradata, Sybase, EXL Service, Bentley Systems

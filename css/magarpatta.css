@@ -5,6 +5,7 @@
 .cont-1
 {height: 100;
     width:100%;
+
     display: flex;
     flex-direction: row;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(./../img/magarpatta-img/Magarpatta-\ Drone.jpg);
@@ -33,10 +34,20 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.set-line
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .head-img {
     height: 500px;
     margin-left: 105px;
-    margin-top: 170px;
+    margin-top: 90px;
+    margin-bottom: 120px;
     filter: drop-shadow(0px 0px 8px #004a4d);
 }
 
@@ -44,7 +55,9 @@
 
     height: 60px;
     width: 100%; 
-    background-color:#00ace6;  
+    background-color:#00ace6; 
+    
+     
 }
 
 .slogen
@@ -55,6 +68,13 @@
     padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+.history-paragraph
+{
+    background-color: #ddd;
+    height: 540px;
+    width: 100%;
+    display: flex;
 }
 .history
 {
@@ -99,3 +119,268 @@
     border-top-right-radius: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.sec-3
+{
+    background:#ddd;
+    display: flex;
+}
+
+.infrastructure-img
+{
+ width: 500px;
+ height: 600px;
+ margin-left: 200px;
+ margin-top: 100px;
+ margin-left: -140px;
+}
+.circle
+{
+    height: 150px;
+    width: 150px;
+    border: 5px solid  #66d9ff;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 255px;
+}
+
+.num
+{
+    font-size: 60px;
+    margin-left: 35px;
+    color: #00ace6;
+}
+
+.building
+{
+    color:#006080;
+    font-size: 22px;
+    margin-left: 30px;
+}
+.acre
+{
+    margin-left: 30px;
+}
+.floor
+{margin-left: 50px;}
+
+.text
+{
+    margin-top: 60px;
+    margin-left: 28px;
+    font-size: 19px;
+    color: #006080;
+}
+
+.sec-4
+{
+    height: 280px;
+    width: 750px;
+    background-color: #66d9ff;
+    margin-top: -100px;
+    margin-left: 700px;
+}
+
+.infrastructure-para
+{
+    font-size: 23px;
+    padding: 25px;
+    color: #006080;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.infrastructure-connectivity
+{
+    background-color: #66d9ff;
+    color: white;
+   margin-top:50px;
+    border: none;
+    height: 100px;
+    width: 220px;
+    padding: 3px;
+    font-size: 35px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec-5
+{
+    width: 100%;
+    height: 700px;
+    background-color: #ddd;
+    margin-top: 70px;
+}
+
+.img-sec-1{
+    display: flex;
+}
+.img-1{
+    height: 350px;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 200px;
+    position: relative;
+}
+.img-1:hover{
+    transform: translateY(-15px);
+      transition: 0.5s;}
+
+      .cafe-img{
+        
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+        .img-1-text{
+            background: linear-gradient(45deg,#004a4d,#231f20);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: 0.5s;
+            color: white;
+        }
+        .img-1:hover .img-1-text{
+            opacity: 0.8;
+        
+         }
+
+         .doctor-img{
+            height: 350px;
+            margin-top: 170px;
+            margin-left: 120px;
+        }
+        
+        .cafe-img::before{
+           
+            background: linear-gradient(rgba(0, 0, 0, 0.15), transparent, transparent);
+            border-radius: 50%;
+            transition: 0.5s;
+        
+        }
+        .cafe{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            margin-top: 25px;
+        }
+        .feature{
+            font-size: 20px;
+            margin-left: 30px;
+            text-align: justify;
+            margin-top: 50px;
+            padding: 5px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .companies-text{
+            height: 100px;
+            width: 220px;
+            color: white;
+            background-color: #004a4d;
+            margin-top: 70px;
+            margin-bottom: 90px;
+            
+            margin-top: 70px;
+            font-size: 35px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border: none;
+        }
+        .phases-div-1{
+            background-color: #ddd;
+            width: 100%;
+            height: 340px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        
+        .phase-1{
+            height: 300px;
+            width: 400px;
+            background-color: white;
+            border: #231f20;
+            background: linear-gradient(45deg,#004a4d,#231f20);
+              opacity: 0.9;
+        
+              border-radius: 5px;
+        
+        }
+        .phase{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .phase-text{
+            color: white;
+            font-size: 20px;
+            margin-left: 19px;
+            margin-right: 15px;
+            margin-top: 20px;
+        }
+        .phase-btn{
+            padding: 10px;
+            background-color: #fa991c;
+            color: white;
+            margin-left: 150px;
+            margin-top: 40px;
+            border: none;
+            font-size: 17px;
+            border-radius: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        .phase-btn:hover{
+            background-color: #009966;
+            cursor: pointer;
+        }
+        .phase1-name{
+            height: 60px;
+            padding-top: 10px;
+            background-color: #004a4d;
+            font-size: 37px;
+            color: white;
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .phase1-name-ad{
+            color: #fa991c;
+        }
+        .company-page1{
+            height: 750px;
+            width: 1500px;
+            margin-left: auto;
+            margin-right:auto ;
+            margin-top: 10px;
+        }
+        .company-1{
+            height: 320px;
+            width: 900px;
+            background-color:#dbf0e8;
+            margin-left: 100px;
+        
+        }
+        .cognizant-name{
+        
+            margin-left: 50px;
+            font-size: 40px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .cognizant-logo{
+               margin-top: -10px;
+            height: 80px;
+            margin-left: 50px;
+        
+        }
+        .address-company{
+            color: #004a4d;
+            font-size: 18px;
+            margin-left: 58px;
+            margin-top: -10px;
+            
+        }
+        
