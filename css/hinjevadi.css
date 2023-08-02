@@ -470,4 +470,46 @@
         margin-left: 83px;
         color: #94bc45;
     }
+    .Inftrastructure{
+        margin-top: 190px;
+    }
+    .Inftrastructure-img{
+            margin-top: 250px;
+            height: 450px;
+            margin-left: -200px;
+
+    }
+    .circle{
+        margin-left: 70px;
+    }
+    .section-4{
+
+        margin-left: 500px;
+    }
+    .connectivity{
+        margin-top: 20px;
+    }
+    .img-1{
+        margin-left: 100px;
+    }
+    .company-2-img{
+        width: 370px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    .abc{
+        margin-top: 70px;
+        margin-left: -100px;
+        
+       
+    }
+    .company-1{
+        margin-left: 20px;
+        width: 800px;
+        height: 350px;
+    }
+    .phase1-name{
+        margin-top: 20px;
+    }
+
 }
