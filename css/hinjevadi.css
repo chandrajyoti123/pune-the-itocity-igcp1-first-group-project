@@ -412,7 +412,7 @@
 /*mobile*/
 
 
-@media screen and (min-width: 375px) and (max-width: 668px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
     .container-1 {
         height: 80vh;
         width: 100%;
