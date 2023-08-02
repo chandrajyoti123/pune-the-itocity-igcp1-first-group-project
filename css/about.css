@@ -1,94 +1,122 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.text{
+/* aobut page */
+.main-contener {
+    height: 80vh;
+    width: 100vw;
+    background:  url(/img/about/team\ work.webp);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.section1 p{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color:#004A4D;
+}
+
+
+
+/* finished about page */
+/* .text {
     font-size: 50px;
-    color:#004a4d  ;
+    color: #004a4d;
     position: relative;
     bottom: 500px;
-    left:80px;
+    left: 80px;
 }
 
-.text-container{
+.text-container {
     font-size: 30px;
     color: red;
     text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-evenly;
     padding: 25px;
-    box-shadow:4px  #0d9ba0;
-    
+    box-shadow: 4px #0d9ba0;
+
 }
 
-.border{
+.border {
     border: 4px solid #004a4d;
     height: 500px;
     width: 350px;
 }
 
-  
 
 
 
-.text-border{
+
+.text-border {
     position: relative;
     border: 5px solid hwb(182 9% 58%);
     border-radius: 50px;
     height: 350px;
     width: 270px;
     padding-left: 10px;
-    background-color:hwb(182 9% 58%) ;
-    
-   
+    background-color: hwb(182 9% 58%);
+
+
     margin-left: 30px;
     margin-top: 90px;
 
 }
-.head{
+
+.head {
     font-size: 80px;
     text-align: center;
     color: #004a4d;
 }
-.border-img{
+
+.border-img {
     position: relative;
     margin: 10px;
-    
-    top:10px;
+
+    top: 10px;
     left: 8px;
     border-radius: 50%;
-    top:-70px;
+    top: -70px;
     box-shadow: #004a4d;
-    border:1px solid #004a4d;
-   
+    border: 1px solid #004a4d;
+
 }
-.border1{
+
+.border1 {
     position: relative;
     border: 5px solid hwb(182 9% 58%);
     border-radius: 50px;
     height: 350px;
     width: 270px;
     padding-left: 10px;
-    background-color:hwb(182 9% 58%) ;
-   
+    background-color: hwb(182 9% 58%);
+
     margin-left: 30px;
     margin-top: 90px;
     text-align: center;
 }
-.border3{
-  position: relative;
-  left: 580px;
+
+.border3 {
+    position: relative;
+    left: 580px;
 
 }
-.team{
+
+.team {
     border-radius: 50%;
     height: 50px;
 
 }
-.heading1{
+
+.heading1 {
     position: relative;
     background-color: white;
     color: #004a4d;
@@ -98,37 +126,9 @@
     right: 30px;
     text-align: center;
     margin: 10px;
-    
+
 }
-.member{
+
+.member {
     font-size: 20px;
-}
-
-/* Mobile Devices */
-@media screen and (min-width: 600px)and (max-width:978){
-.img{
-    background-color: #0d9ba0;
-   
-}
-
-}
-
- /* Tablet Devices */
-
- @media screen and (min-width: 979px) and (max-width: 1275px){
-    .img{
-        background-color: orangered;
-    }
-
- }
-
-  /* Dekstop device */      
-
-  @media screen and (min-width:1275px) and (max-width: 1570px){
-    .img{
-        background-color: orangered;
-       
-
-    }
-
-  }
+} */
