@@ -228,7 +228,7 @@ margin-bottom: 20px;
 (min-width:314px) and (max-width:480px){
     .blog-card{
         flex-direction: column;
-        height: 150vh;
+        height: 180vh;
         justify-content: space-around;
         margin:0;
        
