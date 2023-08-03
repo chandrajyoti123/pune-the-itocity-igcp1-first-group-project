@@ -225,17 +225,17 @@ margin-bottom: 20px;
 
 
 @media screen and 
-(min-width:314px) and (max-width:480px){
+(min-width:300px) and (max-width:480px){
     .blog-card{
         flex-direction: column;
-        height: 180vh;
+        height: 150vh;
         justify-content: space-around;
         margin:0;
        
        
     }
     .blog1{
-        width: 80%;
+        width: 90%;
         height: 45vh;
     }
     .img-blog{
@@ -274,14 +274,11 @@ margin-bottom: 20px;
         height: 40vh;
     }
    
-
-    .hero-section2 h2{
+    .content h2{
         font-size: 1.3rem;
         font-weight: 600;
-        
-    
-    
     }
+    
    
     
     .content{
