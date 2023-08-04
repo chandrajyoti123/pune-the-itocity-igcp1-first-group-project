@@ -134,14 +134,19 @@
  margin-top: 100px;
  margin-left: -140px;
 }
-.circle
-{
+.circle{
     height: 150px;
     width: 150px;
-    border: 5px solid  #66d9ff;
+    
     border-radius: 50%;
     margin-left: 100px;
-    margin-top: 255px;
+    margin-top: 225px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px gray;
+}
+.circle:hover{
+    background-color: #59eeae;
+    cursor: pointer;
 }
 
 .num
@@ -222,7 +227,7 @@
 }
 .img-1:hover{
     transform: translateY(-15px);
-      transition: 0.5s;}
+          transition: 0.5s;}
 
       .cafe-img{
         
@@ -479,14 +484,13 @@
             margin-left: 480px;
             margin-top: -40px;
         }
-        
 
-        
-/*mobile*/
+
+        /*mobile*/
 
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
-    .container-1 {
+    .cont-1 {
         height: 80vh;
         width: 100%;
         display: flex;
@@ -514,10 +518,10 @@
     }
 
     .head-img {
-        display:none;
+        display :none;
     }
             
-    .container-2{
+    .cont-2{
         width: 100%;
     }
     .slogen{
@@ -538,7 +542,7 @@
         font-size: 15px;
         margin-left: -80px;
     }
-    .Inftrastructure{
+    .infra{
         font-size: 22px;
         height: 60px;
         margin-top: 105px;
@@ -549,14 +553,14 @@
         margin-top: 50px;
         margin-left:5px;
     }
-    .section-3{
+    .sec-3{
         display: flex;
         flex-direction: column;
     }
     .circle{
-        margin-top: 50px;
+        margin-top: 17px;
     }
-    .section-4{
+    .sec-4{
         margin-left: 0px;
         width: 100%;
         height: 600px;
@@ -580,6 +584,14 @@
     }
     .img-1{
         margin-left: 10px;
+        width: 360px;
+    }
+    .sec-6{
+        margin-top: 35px;
+    }
+    .img1{
+        margin-top: 500px;
+        margin-left: -390px;
     }
     .cafe-img{
         width: 355px;
@@ -603,11 +615,23 @@
     }
     .phases-1{
         margin-top: -100px;
+        
     }
+    .phases-div-1
+    {
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .phase-div-2{
+        margin-top: 350px;
+    }
+    
     .phase-1{
         width: 330px;
         margin-left: 22px;
         margin-top: 50px;
+      
     }
     .phase-btn{
         margin-left: 110px;
@@ -645,14 +669,19 @@
     .cognizant-name{
         font-size: 30px;
     }
-    .cognizant-logo{
+    .Qualitas-logo{
         height: 50px;
         padding: 15px;
+        display: none;
     }
     .ph-2{
         margin-top: 20px;
         font-size: 20px;
        width: 375px
+    }
+    .spectra
+    {
+        display :none;
     }
 
 
