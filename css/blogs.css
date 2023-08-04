@@ -451,7 +451,7 @@ margin-top: 15px;
     }
     .blog1{
         width: 90%;
-        height: 140vw;
+        height: 120vw;
         margin: 7vw 0;
     }
     .img-blog{
@@ -470,7 +470,7 @@ margin-top: 15px;
    
     
     .blog-page-heading{
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 500;
         text-align: center;
         margin: 1.5rem 0.3 0 0.3rem;
@@ -496,6 +496,7 @@ margin-top: 15px;
         width: 100vw;
         position: absolute;
         left: 0;
+        top: 40px;
         font-size: 1.7rem;
         font-weight: 600;
     }
@@ -563,10 +564,10 @@ margin-top: 15px;
             text-align: center;
         }
         .footer2-1{
-            font-size: 3rem;
+            font-size: 1.7rem;
         }
         .footer2-2{
-            font-size:2rem ;
+            font-size:1.2rem ;
             padding: 0 1rem;
         }
         .footer3{
@@ -585,7 +586,7 @@ margin-top: 15px;
         }
         .footer3 .footer3-list .footer3-list-item{
           margin: 0;
-          font-size: 2rem;
+          font-size: 1.2rem;
         }
 
 }
