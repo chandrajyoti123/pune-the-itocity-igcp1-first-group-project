@@ -9,7 +9,7 @@
     display: flex ;
     flex-direction: row;
     background-color: #231f20;
-    margin-top: 25.5%;
+    margin-top: 30px;
     height: 350px;
     width:100% ;
     color: white;
@@ -17,8 +17,9 @@
 }
 
 .logo{
-    height: 15%;
-    margin-left: 100px;
+    width: 310px;
+    height: 100px;
+    margin-left: 15px;
     margin-top: 35px;
 
 
@@ -33,7 +34,7 @@
     margin-left: 110px;
     color: #bbb;
    font-family: Arial, Helvetica, sans-serif;
-   margin-top: 75px;
+   margin-top: 35px;
    font-size: 12px;
 
 }

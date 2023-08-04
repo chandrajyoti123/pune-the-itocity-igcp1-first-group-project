@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 html{
     font-size: 10px;
@@ -168,7 +169,7 @@ header {
     
 }
 .our-team-main-heading-span{
-    border-bottom:    10px double #231f20 ;
+    
     color: #231f20;
 }
 .our-team{
@@ -273,6 +274,9 @@ header {
     list-style: none;
     padding: 0 2rem;
 
+}
+.fa-brands{
+    color: #fff;
 }
 .content .social-media-link .social-media-link-list  .social-media-link-list-href{
     

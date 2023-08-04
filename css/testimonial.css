@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 html{
@@ -93,7 +94,7 @@ header {
     justify-content: space-around;
     align-items: center;
     position: relative;
-    background-color: #dbf0e8;
+    background-color: #fbf3f2;
     flex-wrap: wrap;
     
 

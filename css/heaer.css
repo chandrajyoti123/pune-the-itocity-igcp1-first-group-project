@@ -6,8 +6,14 @@ header {
     justify-content: space-around;
     align-items: center;
     color: white;
+<<<<<<< HEAD
    
 
+=======
+    position: fixed;
+    top: 0;
+    z-index: 100;
+>>>>>>> bf7d4b9c35b006af6ef124418192fa90fd13151e
 
 
 }

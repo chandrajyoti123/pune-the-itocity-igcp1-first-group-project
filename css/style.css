@@ -276,7 +276,7 @@ header {
 
 .section31-2-btn {
     position: relative;
-    left: 37rem;
+    /* left: 37rem; */
     background: linear-gradient(45deg, #004a4d, #FA991C);
 }
 

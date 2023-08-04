@@ -10,7 +10,7 @@
 
     display: flex;
     flex-direction: row;
-    background: linear-gradient(rgb(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hinjevadi-img/b2ap3_thumbnail_infosys-pune.jpg.crdownload);
+    background: linear-gradient(rgb(0, 74, 77, 0.7), rgba(0, 0, 0, 0.8)), url(./../img/foter1-img/icc1.jpg);
     opacity: 0.9;
     background-size: cover;
 
@@ -20,6 +20,10 @@
 
 .section-1 {
     width: 700px;
+}
+.scroll{
+    margin-left: 95%;
+    height: 35px;
 }
 
 .head-name {
@@ -45,6 +49,11 @@
     margin-left: 50px;
     margin-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.imgg{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
 }
 
 .head-img {
@@ -140,18 +149,24 @@
 .circle{
     height: 150px;
     width: 150px;
-    border: 5px solid  #92E3A9;
+    
     border-radius: 50%;
-  
-    
-    
+    margin-left: 100px;
+    margin-top: 225px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px gray;
 }
-.circle h2 {
-  
-    /* font-size: 1rem;
-    margin-left: 44px;
-    color: #004a4d; */
-    
+.circle:hover{
+    background-color: #59eeae;
+    cursor: pointer;
+}
+.circle-text{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.circle-texts{
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .building{
 
@@ -351,10 +366,10 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .cognizant-logo{
-       margin-top: -10px;
+    margin-top: -50px;
     height: 60px;
-    
-    margin-left: 50px;
+    margin-left: 680px;
+
 
 }
 .address-company{
@@ -415,32 +430,186 @@
 
 
 
-@media screen and (min-width: 375px) and (max-width: 668px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
     .container-1 {
-        height: 1100px;
-        width: 950px;
+        height: 80vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .head-name {
-        font-size: 60px;
-        margin-left: 50px;
-
+        font-size:27px;
+        margin-top: 120px;
+        margin-left: 53px;
     }
 
     .sub-header {
-        font-size: 80px;
-        margin-left: 120px;
+        font-size: 15px;
         color: gray;
+        margin-left: 18px;
+    }
+    .set-line{
+      margin-left: 5px;
+      text-align: justify;
+      padding: 5px;
+      margin-top: 50px;
+      font-size: 15px;
+      overflow: hidden;
+      
     }
 
     .head-img {
+        display:none;
+    }
+            
+    .container-2{
+        width: 100%;
+    }
+    .slogen{
+        font-size: 17px;
+
+    }
+    .history{
+        margin-left: 10px;
+        height: 75px;
+        font-size: 25px;
+        width: 180px;
+       
+    }
+    .history-img{
+        display: none;
+    }
+    .history-info{
+        font-size: 15px;
+        margin-left: -80px;
+    }
+    .Inftrastructure{
+        font-size: 22px;
+        height: 60px;
+        margin-top: 105px;
+    }
+    .Inftrastructure-img{
+        height: 270px;
+        width: 100%;
+        margin-top: 50px;
+        margin-left:5px;
+    }
+    .section-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .circle{
+        margin-top: 50px;
+    }
+    .section-4{
+        margin-left: 0px;
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+    }
+    .cir{
+        margin-top: 0px;
+    }
+    .text{
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+    .connectivity{
+        margin-top: -42px;
+        
+    }
+    .img-section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-1{
+        margin-left: 10px;
+    }
+    .cafe-img{
+        width: 355px;
+        height:355px ;
+        border-radius: 15px;
+        margin-top: -30px;
+    }
+    .nn{
+        margin-top: -130px;
+    }
+    .phases-div{
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    .companies-text{
         margin-top: -80px;
+        height: 65px;
+        font-size: 25px;
+    }
+    .phases-1{
+        margin-top: -100px;
+    }
+    .phase-1{
+        width: 330px;
+        margin-left: 22px;
+        margin-top: 50px;
+    }
+    .phase-btn{
+        margin-left: 110px;
+        margin-bottom: 5px;
+    }
+    .phase1-name{
+        margin-top: 400px;
+        font-size: 22px;
+    }
+    .bbbt{
+        margin-top: 10px;
+    }
+    .company-2{
+       display: flex;
+       flex-direction: column;
+    }
+   
+    .company-2-img{
+        display: none;
+    }
+    .company-1{
+        width: 350px;
+        height: 400px;
+        margin-left: 13px;
+
+    }
+    .abcd{
+        margin-left: -470px;
+        margin-top: 70px;
+        
+    }
+    .address-company{
+        font-size: 15px;
+    }
+    .cognizant-name{
+        font-size: 30px;
+    }
+    .cognizant-logo{
+        height: 50px;
+        padding: 15px;
+    }
+    .ph-2{
+        margin-top: 20px;
+        font-size: 20px;
+       width: 375px
     }
 
 
+
+
+
+
+
+
 }
+
 
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
