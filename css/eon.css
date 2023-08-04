@@ -313,23 +313,24 @@ font-size: 23px;
 }
 .phase-btn{
     padding: 10px;
-    background-color: #fa991c;
+    
     color: white;
     margin-left: 130px;
     margin-top: 40px;
     border: none;
     font-size: 17px;
-    border-radius: 10px;
+    background: linear-gradient(45deg, #FA991C, #004a4d);
+    border: none;
+
+   
+    border-radius: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .unic{
     margin-left: 120;
 }
-.phase-btn:hover{
-    background-color: #009966;
-    cursor: pointer;
-}
+
 .phase1-name{
     height: 60px;
     padding-top: 10px;
