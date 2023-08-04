@@ -451,7 +451,7 @@ margin-top: 15px;
     }
     .blog1{
         width: 90%;
-        height: 110vw;
+        height: 140vw;
         margin: 7vw 0;
     }
     .img-blog{
@@ -459,20 +459,18 @@ margin-top: 15px;
         height: 40%;
     }
  .content .read-more{
-    font-size: 1.5rem;
-    margin-top: 6rem;
-    position: absolute;
-    top:-2rem;
-    left: 3rem;
-    padding: 0.5rem 0.9rem;
+  display: none;
    
   
 }
+/* .display-none{
+    display: none;
+} */
      
    
     
     .blog-page-heading{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 500;
         text-align: center;
         margin: 1.5rem 0.3 0 0.3rem;
