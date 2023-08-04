@@ -76,6 +76,7 @@ header {
     display: none;
 }
 
+
 /* aobut page */
 .main-contener {
     height: 80vh;
@@ -435,6 +436,7 @@ margin-top: 15px;
 
     .fa-solid {
         font-size: 5rem;
+        color: #fff;
     }
 
 .main-contener {
