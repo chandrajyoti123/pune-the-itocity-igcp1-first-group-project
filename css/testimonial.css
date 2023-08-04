@@ -19,6 +19,9 @@ header {
     justify-content: space-around;
     align-items: center;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 
 }
@@ -27,6 +30,9 @@ header {
 .header-logo-img{
     width: 210px;
    
+}
+.header-logo-img{
+    width: 210px;
 }
 
 .header-ul {
@@ -287,7 +293,7 @@ margin-top: 15px;
 }
 .footer2-2{
     font-size: 2rem;
-    margin-top: 10px;
+    margin-top: -2px;
     text-align: center;
 }
 .footer3{
@@ -354,6 +360,9 @@ margin-top: 15px;
 
     .header-logo {
         font-size: 4rem;
+    }
+    .header-logo-img{
+        width: 210px;
     }
     .header-logo-img{
         width: 110px;
