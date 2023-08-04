@@ -741,6 +741,7 @@ z-index: 100;
         .footer2{
             width: 100vw;
             text-align: center;
+            margin-top: -13px;
         }
         .footer2-1{
             font-size: 3rem;
@@ -748,6 +749,10 @@ z-index: 100;
         .footer2-2{
             font-size:2rem ;
             padding: 0 1rem;
+           
+                
+                margin-top: 5px;
+               
         }
         .footer3{
             width: 100vw;
@@ -760,7 +765,7 @@ z-index: 100;
             width: 100%;
             flex-direction: row;
             justify-content: space-evenly;
-            margin: 0rem;
+            margin: 5px;
            
         }
         .footer3 .footer3-list .footer3-list-item{
