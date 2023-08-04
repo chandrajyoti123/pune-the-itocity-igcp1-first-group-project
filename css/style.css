@@ -282,7 +282,7 @@ footer{
     position: relative;
     width: 100vw;
     height: 200px;
-    margin-top: 0;
+    margin-top: -33rem;
 }
 .footer {
   width: 100%;
@@ -683,6 +683,9 @@ z-index: 100;
         position: relative;
         top: -83px;
     }
+    footer{
+        top: -15rem
+    }
     .footer{
         flex-direction: column;
         width: 100vw;
@@ -723,6 +726,9 @@ z-index: 100;
         .footer3 .footer3-list .footer3-list-item{
           margin: 0;
           font-size: 2rem;
+        }
+        .footer-wave-animation{
+            display: none;
         }
 }
 
