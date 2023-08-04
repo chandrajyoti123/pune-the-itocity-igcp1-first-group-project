@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-img-container {
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(#004a4d, rgba(0, 0, 0, 0.2)), url(../img/wtc-img/wtc1-img.jpg);
+    opacity:5;
+    background-size: cover;
+}
+
+.line-on-sp {
+    font-size: 35px;
+    padding: 7px;
+
+    width: 590px;
+    background-color: #f0ece2;
+    margin-left: 50px;
+
+    color: #034ea2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 5px 2px white;
+    margin-top: 410px;
+
+}
+
+.park-name {
+    font-size: 50px;
+    padding-top: 100px;
+    color: white;
+    margin-left: 20px;
+    color: #fff;
+    text-align: center;
+    
+
+}
+.scroll{
+    margin-left: 95%;
+    height: 35px;
+}
+
+.big-name {
+    font-size: 40px;
+    background-color: rgb(194, 216, 152);
+    padding: 10px;
+    text-align: center;
+    color: #096d70;
+
+}
+
+.paragraph-img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.head-paragraph {
+    color: #034ea2;
+    margin-left: 100px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.para-info {
+    margin-left: 80px;
+    width: 600px;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 120px;
+    color: #004a4d;
+}
+
+.header {
+    color: #034ea2;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.feature{
+    margin-right: 10px;
+}
+
+.para-img {
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 550px ;
+    height: 550px;
+
+}
+
+.infrastructure {
+    font-size: 40px;
+    color: #034ea2;
+    margin-left: 80px;
+    margin-top: 190px;
+
+}
+
+.card-raw-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 230px;
+    width: 250px;
+    background-color: #004a4d;
+    border-radius: 20px;
+    margin-top: 70px;
+
+}
+
+.card-raw-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.crd {
+    margin-left: 450px;
+}
+
+.cad {
+    margin-left: 130px;
+}
+
+.feature {
+    font-size: 23px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+
+.map{
+    margin-left: 310px;
+    margin-top: 50px;
+    border: 10px solid black;
+    border-radius: 10px;
+
+
+} 
+.towername{
+font-size: 40px;
+color: #034ea2;
+margin-left: 80px;
+margin-top: 190px;
+padding-top: 20px;
+}
+.tower{
+    
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+
+.tower1{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: #231f20;
+    background: linear-gradient(45deg,#004a4d,#231f20);
+    opacity: 0.9;
+
+   border-radius: 5px;
+   
+
+}
+.heading{
+    color: white;
+    font-size: 30px;
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+.tower1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.companytext{
+    color: white;
+    font-size: 10px;
+    margin-left: 19px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.no-container {
+    width: 300px;
+    height: 80px;
+    background-color: #a0d4d6;
+    border: #034ea2 solid 2px;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-left: 290px;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 10px;
+    color: #004a4d;
+
+}
+
+/*small desktop*/
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .para-img {
+        margin-left: 30px;
+    }
+
+    .crd {
+        margin-left: 350px;
+    }
+
+    .cad {
+        margin-left: 72px;
+    }
+
+    .video {
+        margin-left: 170px;
+    }
+
+    .no-container {
+        margin-left: 150px;
+    }
+
+
+}
+
+
+/*mobile*/
+
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+
+    .park-name{
+        color: black;
+        font-size: 40px;
+        padding-top: 300px;
+    }
+    .line-on-sp{
+        font-size: 20px;
+        width: 350px;
+        margin-top: 50px;
+    }
+    .big-name{
+        font-size: 25px;
+    }
+    .para-info{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .back-img-container{
+        height: 70vh;
+    }
+    .para-img{
+        margin-left: 45px;
+        margin-right: 20px;
+        width: 100px;
+        height: 50px;
+    }
+    .crd{
+        margin-left: 100px;
+    }
+    .cad{
+        margin-left: 100px;
+    }
+    .video{
+        width: 350px;
+        margin-left: 50px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .address{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 170px;
+
+
+    }
+    .no-container{
+        margin-left: 20px;
+    }

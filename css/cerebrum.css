@@ -377,6 +377,10 @@
     margin-left: 680px;
 
 }
+.scroll{
+    margin-left: 95%;
+    height: 35px;
+}
 .lg{
     height: 40px;
 }

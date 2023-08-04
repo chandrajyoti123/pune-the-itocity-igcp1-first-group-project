@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 html {
@@ -16,12 +17,19 @@ header {
     justify-content: space-around;
     align-items: center;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 
 }
 
-.header-logo {
+/* .header-logo {
     font-size: 2.5rem;
+} */
+.header-logo-img{
+    width: 210px;
+   
 }
 
 .header-ul {
@@ -60,12 +68,16 @@ header {
     text-decoration: none;
     font-size: 2rem;
     position: relative;
+   
 
 
 }
 
 .header-cross {
     display: none;
+}
+.white-color{
+    background-color: #fbf3f2;
 }
 
 .section1 {
@@ -75,6 +87,7 @@ header {
     box-sizing: border-box;
     background-color: #004a4d;
     position: relative;
+    
 
 }
 
@@ -282,7 +295,7 @@ footer{
     position: relative;
     width: 100vw;
     height: 200px;
-    margin-top: 0;
+    margin-top: -33rem;
 }
 .footer {
   width: 100%;
@@ -449,9 +462,14 @@ body{
         display: none;
     }
 
-    .header-logo {
+    /* .header-logo {
         font-size: 4rem;
+    } */
+    .header-logo-img{
+        width: 110px;
     }
+    
+    
 
     .header-cross {
         display: block;
@@ -621,21 +639,42 @@ transition: 0.5s;
     }
     
     .section31-2-heading{
-        font-size: 5rem;
+        font-size: 4.5rem;
         color: #231f20;
         margin-top: 4rem;
     }
+    .section21-2-heading{
+        font-size: 4.5rem;
+        color: #231f20;
+        margin-top: 4rem;
+    }
+    .black{
+        color: #fff;
+    }
     .section31-2-discription{
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
         padding:1.5rem  3rem;
        color:#004a4d;
+       text-align: justify;
+
+    }
+    .section21-2-discription{
+        font-size: 2.5rem;
+        padding:1.5rem  3rem;
+        text-align: justify;
+
+    }
+    .section21-2-btn{
+        width: 30%;
+        font-size:2rem;
+        padding: 2.4rem 3rem;
 
     }
     .section31-2-btn{
-        width: 40%;
+        width: 30%;
         font-size:2rem;
-        padding: 2.8rem 3rem;
+        padding: 2.4rem 3rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -653,7 +692,7 @@ transition: 0.5s;
         left: 0;
     }
     .section22-2{
-        background: linear-gradient(45deg,rgba(255,255,255,0.6),#fff);
+        background: linear-gradient(45deg,rgba(251,243,242,0.6),#fbf3f2);
     }
     .section22{
         position: relative;
@@ -682,6 +721,9 @@ z-index: 100;
     .section-margin{
         position: relative;
         top: -83px;
+    }
+    footer{
+        top: -15rem
     }
     .footer{
         flex-direction: column;
@@ -723,6 +765,9 @@ z-index: 100;
         .footer3 .footer3-list .footer3-list-item{
           margin: 0;
           font-size: 2rem;
+        }
+        .footer-wave-animation{
+            display: none;
         }
 }
 
