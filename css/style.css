@@ -12,7 +12,7 @@ html {
 header {
     width: 100vw;
     height: 10vh;
-    background-color: #004a4d;
+    background-color: #0d3637;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -277,7 +277,7 @@ header {
 
 .section31-2-btn {
     position: relative;
-    /* left: 37rem; */
+    left: 37rem;
     background: linear-gradient(45deg, #004a4d, #FA991C);
 }
 
