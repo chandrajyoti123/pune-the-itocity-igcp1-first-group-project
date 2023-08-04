@@ -21,6 +21,10 @@
 .section-1 {
     width: 700px;
 }
+.scroll{
+    margin-left: 95%;
+    height: 35px;
+}
 
 .head-name {
     font-size: 45px;

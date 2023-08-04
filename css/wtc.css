@@ -28,13 +28,17 @@
 
 .park-name {
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
     color: white;
     margin-left: 20px;
     color: #fff;
     text-align: center;
     
 
+}
+.scroll{
+    margin-left: 95%;
+    height: 35px;
 }
 
 .big-name {
