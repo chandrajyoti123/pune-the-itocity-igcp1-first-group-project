@@ -556,8 +556,11 @@ margin-top: 15px;
     .the-top-is-hide{
         display: none;
     }
-
-
+.header-cross{display: block;}
+.fa-solid{
+    color: #fff;
+    font-size: 3rem;
+}
     .footer{
         flex-direction: column;
         width: 100vw;
