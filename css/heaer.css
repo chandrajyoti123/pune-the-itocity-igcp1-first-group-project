@@ -1,7 +1,7 @@
 header {
     width: 100vw;
     height: 10vh;
-    background-color: #004a4d;
+    background-color: #0d3637;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +31,7 @@ header {
 
 .header-list {
     list-style: none;
-    padding: 1.7rem 3.3rem;
+    padding:20px 40px;
     
 }
 
@@ -60,7 +60,7 @@ header {
 
 .header-href{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 20px;
     position: relative;
     color: #fff;
 
@@ -100,7 +100,7 @@ header {
     display: block;
 }
 .fa-solid{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
 }
 }
