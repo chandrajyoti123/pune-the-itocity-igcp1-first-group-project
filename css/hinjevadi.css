@@ -42,7 +42,7 @@
 }
 .set-line{
     font-size: 17px;
-    color: white;
+    color: rgb(21, 13, 13);
     margin-left: 50px;
     margin-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -51,7 +51,7 @@
 .head-img {
     height: 500px;
     margin-left: 105px;
-    margin-top: 170px;
+    margin-top: 70px;
     filter: drop-shadow(0px 0px 8px #004a4d);
 }
 
@@ -85,11 +85,11 @@
     margin-left: 50px;
     border: none;
     height: 125px;
-    width: 130px;
+   padding: 5px;
     padding: 3px;
     width: 160px;
     height: 140px;
-    font-size: 35px;
+    font-size: 30px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -478,7 +478,7 @@
     .Inftrastructure{
         font-size: 22px;
         height: 60px;
-        margin-top: 105px;
+        margin-top: 225px;
     }
     .Inftrastructure-img{
         height: 270px;
@@ -496,7 +496,7 @@
     .section-4{
         margin-left: 0px;
         width: 100%;
-        height: 600px;
+        height: 700px;
         margin-top: 10px;
     }
     .cir{
@@ -508,7 +508,7 @@
         margin-left: 75px;
     }
     .connectivity{
-        margin-top: -42px;
+        margin-top: -32px;
         
     }
     .img-section-1{
@@ -548,7 +548,7 @@
     }
     .phase-btn{
         margin-left: 110px;
-        margin-bottom: 5px;
+        margin-bottom: 35px;
     }
     .phase1-name{
         margin-top: 400px;
@@ -604,6 +604,9 @@
     }
     .ggg{
 
+        margin-top: -127px;
+    }
+    .adjust{
         margin-top: -127px;
     }
 
