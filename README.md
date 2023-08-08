@@ -6,12 +6,8 @@ To immerse yourself in a seamless experience, simply visit our website at https:
 
 ## image of our website
 ![itocity-website-img](itocity.png)
-![ output](projectss.png)
+![output](projectss.png)
 ![output](projects.png)
-
-
-
----
 # The Purpose of Our Project
 The driving force behind ITOCITY was to furnish individuals, especially IT enthusiasts, with a reliable platform to gather comprehensive insights about the bustling IT park scene in Pune.
 
